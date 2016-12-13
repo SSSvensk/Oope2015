@@ -1,9 +1,9 @@
 package juuriluokka;
 
 /**
-  * Abstrakti yliluokka lötköille. 
+  * Abstrakti yliluokka lÃ¶tkÃ¶ille. 
   * <p>
-  * Harjoitustyö, Olio-ohjelmoinnin perusteet, kevät 2015
+  * HarjoitustyÃ¶, Olio-ohjelmoinnin perusteet, kevÃ¤t 2015
   * </p>
   * @author Sami-Santeri Svensk
   */
