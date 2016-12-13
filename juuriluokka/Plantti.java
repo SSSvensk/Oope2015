@@ -1,9 +1,9 @@
 package juuriluokka;
 
 /**
-  * Konkreettinen aliluokka pl‰nteille. 
+  * Konkreettinen aliluokka pl√§nteille. 
   * <p>
-  * Harjoitustyˆ, Olio-ohjelmoinnin perusteet, kev‰t 2015
+  * Harjoitusty√∂, Olio-ohjelmoinnin perusteet, kev√§t 2015
   * </p>
   * @author Sami-Santeri Svensk
   */
@@ -28,8 +28,8 @@ public class Plantti extends Lotko implements Comparable<Plantti> {
    }
 
    /**
-     * Kopiorakentaja, jossa lis‰‰ntym‰‰n valittu pl‰ntti syv‰kopioidaan.
-     * @param Lisaantym‰‰n valittu pl‰ntti.
+     * Kopiorakentaja, jossa lis√§√§ntym√§√§n valittu pl√§ntti syv√§kopioidaan.
+     * @param Lisaantym√§√§n valittu pl√§ntti.
      */
      
 
@@ -39,12 +39,12 @@ public class Plantti extends Lotko implements Comparable<Plantti> {
    }
 
    /**
-     * Metodi, joka luo uuden pl‰ntin syv‰kopioivalla tavalla.
+     * Metodi, joka luo uuden pl√§ntin syv√§kopioivalla tavalla.
      * @param nykyinen indeksiarvo
-     * @param varsinainen lis‰‰ntym‰‰n valittu lˆtkˆ.
-     * @param klimppien luomiseen tarvittu toinen lˆtkˆ, jota ei tarvita t‰ss‰.
-     * @return luotu pl‰ntti.
-     * @throws UnsupportedOperationException, jos lis‰‰ntyv‰ lˆtkˆ ei ole pl‰ntti.
+     * @param varsinainen lis√§√§ntym√§√§n valittu l√∂tk√∂.
+     * @param klimppien luomiseen tarvittu toinen l√∂tk√∂, jota ei tarvita t√§ss√§.
+     * @return luotu pl√§ntti.
+     * @throws UnsupportedOperationException, jos lis√§√§ntyv√§ l√∂tk√∂ ei ole pl√§ntti.
      */
 
    public Object lisaanny(int indeksi, Lotko lotkotus, Lotko kaveri) throws UnsupportedOperationException {
@@ -56,7 +56,7 @@ public class Plantti extends Lotko implements Comparable<Plantti> {
          //Kutsutaan kopiorakentajaa.
          uusiPlantti = new Plantti(lisaantyva);
 
-         //Asetetaan uudet arvot settereill‰
+         //Asetetaan uudet arvot settereill√§
          uusiPlantti.indeksi(indeksi);
          uusiPlantti.soikea(lisaantyva.soikea);
          StringBuilder vanhaPerima = lisaantyva.perima();
@@ -69,11 +69,11 @@ public class Plantti extends Lotko implements Comparable<Plantti> {
          uusiPlantti.koko(lisaantyva.koko() / 2);
       }
 
-      //Jos parametrina v‰litetty lˆtkˆ ei ole pl‰ntti, heitet‰‰n poikkeus.
+      //Jos parametrina v√§litetty l√∂tk√∂ ei ole pl√§ntti, heitet√§√§n poikkeus.
       else
          throw new UnsupportedOperationException();
 
-      //Palautetaan uusi pl‰ntti.
+      //Palautetaan uusi pl√§ntti.
       return uusiPlantti;
    }
 
