@@ -3,7 +3,7 @@ package juuriluokka;
 /**
   * Konkreettinen aliluokka klimpeille. 
   * <p>
-  * Harjoitustyö, Olio-ohjelmoinnin perusteet, kevät 2015
+  * HarjoitustyÃ¶, Olio-ohjelmoinnin perusteet, kevÃ¤t 2015
   * </p>
   * @author Sami-Santeri Svensk
   */
@@ -27,12 +27,12 @@ public class Klimppi extends Lotko implements Comparable<Klimppi> {
    }
 
    /**
-     * Metodi, joka luo uuden klimpin vertailemalla kahta klimppiä.
+     * Metodi, joka luo uuden klimpin vertailemalla kahta klimppiÃ¤.
      * @param nykyinen indeksiarvo
-     * @param varsinainen lisääntymään valittu lötkö.
-     * @param luomiseen tarvittu toinen lötkö.
+     * @param varsinainen lisÃ¤Ã¤ntymÃ¤Ã¤n valittu lÃ¶tkÃ¶.
+     * @param luomiseen tarvittu toinen lÃ¶tkÃ¶.
      * @return luotu klimppi.
-     * @throws UnsupportedOperationException, jos lisääntyvä lötkö ei ole klimppi.
+     * @throws UnsupportedOperationException, jos lisÃ¤Ã¤ntyvÃ¤ lÃ¶tkÃ¶ ei ole klimppi.
      */
 
    public Object lisaanny(int indeksi, Lotko lotkotus, Lotko kaveri) throws UnsupportedOperationException {
