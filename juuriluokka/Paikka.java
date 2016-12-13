@@ -1,10 +1,10 @@
 package juuriluokka;
 
 /**
-  * Luokka, jossa lötkön koordinaateista luodaan 
+  * Luokka, jossa lÃ¶tkÃ¶n koordinaateista luodaan 
   * Paikka-tyyppinen olio.
   * <p>
-  * Harjoitustyö, Olio-ohjelmoinnin perusteet, kevät 2015
+  * HarjoitustyÃ¶, Olio-ohjelmoinnin perusteet, kevÃ¤t 2015
   * </p>
   * @author Sami-Santeri Svensk
   */
