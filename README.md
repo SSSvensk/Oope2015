@@ -17,5 +17,3 @@ There's commands for different actions. Commands are in Finnish, but here they'r
 * Luo/Create (Creates new Lötkös)
 * Tallenna/Save (Save list of Lötkös to .txt-file)
 * Lopeta/Quit (Quit the game)
-
-WETO is still causing me nightmares:(
